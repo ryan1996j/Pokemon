@@ -1,0 +1,62 @@
+* {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.paymentCard {
+    position: absolute;
+    width: 416px;
+    height: 362px;
+    background-color: rgb(255, 255, 255);
+    bottom: 12%;
+
+    left: 50%;
+    transform: translate(-50%);
+
+    border-radius: 35px;
+
+
+}
+
+.paymentSvg {
+    width: 110px;
+    height: 110px;
+}
+
+.paymentSvg svg {
+    width: 110px;
+    height: 110px;
+}
+
+.paymentText {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    color: #1D1C1C;
+}
+
+.paymentInside {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.deletPayment {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}

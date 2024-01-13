@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+    height: auto;
+}
+
+.test {
+    width: 416px;
+    height: 613px;
+    position: absolute;
+    bottom: 12%;
+
+    left: 50%;
+    transform: translate(-50%);
+
+    border-radius: 35px;
+    scroll-behavior: smooth;
+
+
+}
+
+.cartShow {
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.showTotalPrice {
+    width: 100%;
+    height: 35%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.added-card-group {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: scroll;
+
+
+
+}
+
+.added-card {
+    width: 100%;
+    height: 104px;
+    margin-bottom: 28px;
+    display: flex;
+}
+
+.added-card-data,
+.card-name,
+.added-card-price,
+.added-card-left,
+.name-and-card,
+.above,
+.bottom,
+.num-increase-decrease,
+.number,
+.cardLeft,
+.priceGroup,
+.price-text,
+.added-quantity-price,
+.clear-all-group,
+.total_card-group,
+.paynowGroup {
+    height: auto;
+}
+
+.added-card-data {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.above {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+    text-align: center;
+}
+
+.added-card-name {
+    height: auto;
+}
+
+.added-img {
+    width: 77px;
+    height: 105px;
+}
+
+.added-img img {
+    width: 77px;
+    height: 100%;
+}
+
+.for-quantity,
+.number,
+.price-text,
+.added-quantity-price {
+    height: auto;
+}
+
+.total_price,
+.total_card,
+.paynow {
+    width: 100%;
+    height: auto;
+}
+
+.showTotalPrice-text {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+}
+
+.paynow {
+    width: 100%;
+    height: 50px;
+    background-color: #298bfd;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.name-and-card {
+    text-align: left;
+}
+
+.added-card {
+    gap: 16px;
+}
+
+.added-card-price {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.added-card-left {
+    font-size: 14px;
+    font-weight: 400;
+    color: #BCBBBB;
+}
+
+.cardLeft {
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+    margin-top: 22px;
+
+}
+
+.priceGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.red {
+    color: #FD2929;
+
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    line-height: 50%;
+    z-index: 999;
+    position: absolute;
+    right: 32px;
+    top: 5px;
+}
+
+.arrow svg {
+    height: 11px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+.num-increase-decrease {
+    position: relative;
+}
+
+.number {
+    font-size: 20px;
+    font-weight: 600;
+    color: #298bfd;
+    margin-top: 12px;
+}
+
+.price-text {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.added-quantity-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: #298bfd;
+}
+
+.clear-all {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #6A6969;
+    cursor: pointer;
+}
+
+.total_card {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.total_price {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.totalPriceText {
+    margin-right: 16px;
+}
+
+.total_card-group {
+    margin: 26px 0;
+    line-height: 30px;
+}
+
+.deletButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+.totalSelectedCards {
+    width: 100%;
+    height: auto;
+
+    margin-left: 75px;
+}
